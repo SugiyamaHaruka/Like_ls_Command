@@ -5,9 +5,13 @@ centosで、linuxのlsコマンド的なものを作りたかった。
 
 #################################################
 $ vi FileList
+
 $ pwd
 /home/haruto/PythonTest
+
 $ chmod u+x ~/PythonTest/FileList
+
 $ echo export PATH='$PATH:$HOME/PythonTest/' >> ~/.bashrc
+
 $ source ~/.bashrc
 ########################################################
